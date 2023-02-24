@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section #backimg{
+    background-image: url("Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+section #backimg #navigation{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 20%;
+    /* background-color: blue; */
+}
+#logo img{
+    height: 100px;
+    width: 250px;
+    padding-left: 50px;
+}
+#menu{
+    height: 100%;
+    width: 60%;
+    /* background-color: red; */
+}
+#signin{
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+#signin select{
+    height: 25px;
+    padding-top: -5px;
+    padding-bottom: 2px;
+    /* padding-bottom: 2px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 33px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+}
+#signin select:focus{
+    outline: none;
+}
+#signin div{
+    /* border: 2px solid red; */
+    height: 25px;
+    padding-top: 2px;
+    padding-bottom: -2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: red;
+    font-size: 18px;
+    margin: 33px;
+    color: white;
+}
