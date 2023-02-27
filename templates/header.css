@@ -34,20 +34,8 @@ section #backimg #navigation{
     width: 20%;
     display: flex;
 }
-#signin select{
-    height: 25px;
-    padding-top: -5px;
-    padding-bottom: 2px;
-    /* padding-bottom: 2px; */
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 33px;
-    font-size: 15px;
-    color: white;
-    border: 2px solid white;
-}
-#signin select:focus{
-    outline: none;
+#signin ul li{
+    display: none;
 }
 #signin div{
     /* border: 2px solid red; */
